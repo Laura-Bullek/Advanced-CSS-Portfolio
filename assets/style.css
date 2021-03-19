@@ -94,10 +94,22 @@ ul.social-media-list img {
 ul.social-media-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 20px 0 50px 0;
 }
 ul.social-media-list li {
   display: inline-block;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(152, 155, 158);
+  color: white;
+  text-align: center;
+  padding: 3px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
