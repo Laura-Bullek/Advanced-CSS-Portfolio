@@ -19,7 +19,6 @@ nav ul {
 	padding: 0;
 }
 
-
 nav li {
 	margin: 0 5px 10px 0;
 	padding: 0;
@@ -27,6 +26,7 @@ nav li {
 	display: inline-block;
   list-style-type: none;
 }
+
 nav a {
 	padding: 3px 12px;
 	text-decoration: none;
@@ -41,6 +41,7 @@ nav a {
 nav a:hover {
 	color: #000;
 }
+
 nav .current a {
 	background: #999;
 	color: #fff;
@@ -59,11 +60,39 @@ nav .current a {
   border-radius: 10px;
   border: #fff;
   float: left;
+
 }
 
-.bio p {
-  float: right;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.container {
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+}
+.container__image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 30px 30px 30px 0;
+    float: left;
+  }
+
+  .container__text {
+    display: inline;
+  }
 
 h1 {
   font-size: 50px;
