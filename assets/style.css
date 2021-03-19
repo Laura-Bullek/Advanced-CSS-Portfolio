@@ -13,10 +13,13 @@ nav {
 	margin: 20px 0;
   text-align: center;
 }
+
 nav ul {
 	margin: 0;
 	padding: 0;
 }
+
+
 nav li {
 	margin: 0 5px 10px 0;
 	padding: 0;
@@ -48,6 +51,18 @@ nav .current a {
 .main {
   max-width: 1000px;
   margin: auto;
+}
+
+.bio-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: #fff;
+  float: left;
+}
+
+.bio p {
+  float: right;
 }
 
 h1 {
