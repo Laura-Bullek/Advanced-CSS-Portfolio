@@ -92,6 +92,7 @@ margin-bottom: 30px;}
     border-radius: 10px;
     margin: 30px 30px 30px 0;
     float: left;
+    border: 3px black solid;
   }
 
 .container__text {
@@ -133,6 +134,7 @@ h1 {
 
 .content img {
   opacity: 0.5;
+  border: 2px black solid;
 }
 
  .content img:hover {
@@ -179,7 +181,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color:green;
   color: white;
   padding: 12px;
   border: none;
@@ -189,7 +191,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: red;
 }
 
 /* Add a background color and some padding around the form */
