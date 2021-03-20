@@ -1,7 +1,7 @@
 # Advanced-CSS-Portfolio
 
 # Description
-The **Advanced-Css-Portfolio** project is the second homework assignment of the March 2021 cohort from University of New Hampshire's full-stack coding bootcamp. 
+The **Advanced-CSS-Portfolio** project is the second homework assignment of the March 2021 cohort from University of New Hampshire's full-stack coding bootcamp. 
 
 Setting up for our future career successes, this project focuses on applying recently learned core skills with advanced CSS. Built for ourselves and potential employers, this project contains a portfolio gallery of my most recent GitHub deployed repositories, a short story about myself, social media links, and contact information.
 
@@ -24,7 +24,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-[Advanced-CSS-Portfolio-Screenshot.png](https://postimg.cc/JtXQPBh4)
+[![Advanced-CSS-Portfolio-Screenshot.png](https://i.postimg.cc/sf60fYdS/Advanced-CSS-Portfolio-Screenshot.png)](https://postimg.cc/JtXQPBh4)
 
 # Installation
 No installations required for this project.
