@@ -25,7 +25,7 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-[![Advanced-CSS-Portfolio-Screenshot.png](https://i.postimg.cc/sf60fYdS/Advanced-CSS-Portfolio-Screenshot.png)](https://postimg.cc/JtXQPBh4)
+[![Advanced-CSS-Portfolio-Screenshot.png](https://i.postimg.cc/sf60fYdS/Advanced-CSS-Portfolio-Screenshot.png)](https://laura-bullek.github.io/Advanced-CSS-Portfolio/)
 
 
 ## Installation
