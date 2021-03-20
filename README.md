@@ -31,6 +31,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Installation
 No installations required for this project.
 
+## Credits 
+My web development bootcamp program is offered through the University of New Hampshire Professional Development & Training and Trilogy Education Services.
+
 ## Usage
 Below are the links to this project:
 [GitHub] (https://github.com/Laura-Bullek/Advanced-CSS-Portfolio)
