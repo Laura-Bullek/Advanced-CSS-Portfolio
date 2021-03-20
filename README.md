@@ -36,9 +36,9 @@ My web development bootcamp program is offered through the University of New Ham
 
 ## Usage
 Below are the links to this project:
-[GitHub] (https://github.com/Laura-Bullek/Advanced-CSS-Portfolio)
 
-[URL] (https://laura-bullek.github.io/Advanced-CSS-Portfolio/)
+* [GitHub Repository](https://github.com/Laura-Bullek/Advanced-CSS-Portfolio)
+* [Deployed Main Application](https://laura-bullek.github.io/Advanced-CSS-Portfolio/)
 
-# Licensing
+## Licensing
 This repository carries a standard MIT license.
