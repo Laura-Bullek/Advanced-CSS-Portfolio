@@ -83,6 +83,9 @@ nav .current a {
   max-width: 1000px;
 }
 
+div.container{
+margin-bottom: 30px;}
+
 .container__image {
     width: 250px;
     height: 250px;
@@ -91,9 +94,9 @@ nav .current a {
     float: left;
   }
 
-  .container__text {
-    display: inline;
-  }
+.container__text {
+  display: inline;
+}
 
 h1 {
   font-size: 50px;
@@ -132,16 +135,24 @@ ul.social-media-list img {
   padding: 5px;
   border-radius: 5px;
   background-color: white;
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
 }
 
 ul.social-media-list {
   list-style-type: none;
   margin: 0;
   padding: 20px 0 50px 0;
+  display: inline-block;
+  text-align: center;
+  width: 1000px;
 }
+
 ul.social-media-list li {
+  display: inline-block;
+}
+
+#social-media li a {
   display: inline-block;
   text-align: center;
 }
