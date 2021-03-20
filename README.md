@@ -26,6 +26,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 [![Advanced-CSS-Portfolio-Screenshot.png](https://i.postimg.cc/sf60fYdS/Advanced-CSS-Portfolio-Screenshot.png)](https://postimg.cc/JtXQPBh4)
 
+
 # Installation
 No installations required for this project.
 
