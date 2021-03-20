@@ -131,6 +131,14 @@ h1 {
   padding: 10px;
 }
 
+.content img {
+  opacity: 0.5;
+}
+
+ .content img:hover {
+   opacity: 1;
+ }
+
 ul.social-media-list img {
   padding: 5px;
   border-radius: 5px;
