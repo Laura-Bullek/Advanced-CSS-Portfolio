@@ -12,9 +12,8 @@
 </head>
 
 <body>
-
+  <!-- Navbar-->
   <header>
-
     <nav>
       <ul>
         <li><a href="./index.html">Meet Laura</a></li>
@@ -25,87 +24,99 @@
     </nav>
   </header>
 
-  <!-- MAIN (Center website) -->
+  <!-- Main content start) -->
   <div class="main">
+    <!-- Line break-->
     <hr>
+      <!-- Bio picture and text container-->
       <div class="container">
-        <img class="container__image" src="./assets/images/Profile Pic (XSmall) -Square.jpg"/>
+        <img class="container__image" src="./assets/images/Profile Pic (XSmall) -Square.jpg" alt="profile picture"/>
         <div class="container__text">
-          <h2>Why Do Cats Like Boxes?</h2>
+          <h2>Hi there, I'm Laura!</h2>
           <p>"Cats like boxes because they are cryptic animals; they like to hide," Stephen Zawistowski, science adviser for the American Society for the Prevention of Cruelty to Animals, told Business Insider. "And a box gives them a place of safety and security."</p>
           <p>While inside a box, cats feel that they cannot be snuck up on from behind or the side — anything that wants to approach them must come directly into their field of vision. In effect, such hiding spaces allow them to watch the world around them without being seen.</p>
         </div>
      </div>
 
+     <!-- Showcased porfolio content-->
      <h2>Portfolio </h2>
-    <div class="content" id="truffle-shuffle">
-      <img src="./assets/images/Truffle-Shuffle-Screenshot.png" alt="Bear" style="width:100%">
-      <h3>Truffle Shuffle</h3>
-      <p>Lorem ipsum..</p>
-    </div>
+      <div class="content" id="truffle-shuffle">
+        <img src="./assets/images/Truffle-Shuffle-Screenshot.png" alt="truffle shuffle project" style="width:100%">
+        <h3>Truffle Shuffle</h3>
+        <p>Lorem ipsum..</p>
+      </div>
 
-    <!-- Portfolio Gallery Grid -->
+    <!-- Start of portfolio gallery -->
     <div class="row">
+      <!-- First card-->
       <div class="column">
         <div class="content">
-          <img src="./assets/images/Code-Refactor-Screenshot.png" alt="Mountains" style="width:100%">
+          <img src="./assets/images/Code-Refactor-Screenshot.png" alt="code refractor project" style="width:100%">
           <h3>Code Refactor</h3>
           <p>Lorem ipsum..</p>
         </div>
       </div>
 
+    <!-- Second card-->
     <div class="column">
       <div class="content">
-        <img src="./assets/images/GitHub.io - Screenshot.png" alt="Lights" style="width:100%">
+        <img src="./assets/images/GitHub.io - Screenshot.png" alt="github pages project" style="width:100%">
         <h3>Github.io Project</h3>
         <p>Lorem ipsum..</p>
       </div>
     </div>
 
+    <!-- Third card-->
     <div class="column">
       <div class="content">
-        <img src="./assets/images/Password Generator - Screenshot.png" alt="Nature" style="width:100%">
+        <img src="./assets/images/Password Generator - Screenshot.png" alt="password generator project" style="width:100%">
         <h3>Password Generator</h3>
         <p>Lorem ipsum..</p>
       </div>
     </div>
 
+    <!-- Fourth card-->
     <div class="column">
       <div class="content">
-        <img src="./assets/images/Prework - Screenshot.png" alt="Mountains" style="width:100%">
+        <img src="./assets/images/Prework - Screenshot.png" alt="prework project" style="width:100%">
         <h3>Prework Project</h3>
         <p>Lorem ipsum..</p>
       </div>
     </div>
   </div>
 
+  <!-- Line break-->
   <hr>
 
-  <ul class="social-media-list" id="social-media">
-    <li><a href="https://github.com/Laura-Bullek" target="_blank"><img src="./assets/images/GitHub - Icon.png" alt="GitHub" title="GitHub"></a></li>
-    <li><a href="https://www.linkedin.com/in/laura-bullek-95a97711b/" target="_blank"><img src="./assets/images/LinkedIn - Icon.png" alt="LinkedIn" title="LinkedIn"></a></li>
-    <li><a href="https://stackoverflow.com/users/14586431/laura-bullek" target="_blank"><img src="./assets/images/StackOverflow - Icon.png" alt="Stack Overflow" title="Stack Overflow"></a></li>
-  </ul>
+  <!-- Social media section-->
+  <section>
+    <ul class="social-media-list" id="social-media">
+      <li><a href="https://github.com/Laura-Bullek" target="_blank"><img src="./assets/images/GitHub - Icon.png" alt="GitHub" title="GitHub"></a></li>
+      <li><a href="https://www.linkedin.com/in/laura-bullek-95a97711b/" target="_blank"><img src="./assets/images/LinkedIn - Icon.png" alt="LinkedIn" title="LinkedIn"></a></li>
+      <li><a href="https://stackoverflow.com/users/14586431/laura-bullek" target="_blank"><img src="./assets/images/StackOverflow - Icon.png" alt="Stack Overflow" title="Stack Overflow"></a></li>
+    </ul>
+   </section>
 
+  <!-- Line break-->
   <hr>
 
-  </section> 
-
+  <!-- Form container-->
   <div class="container" id="contact-form">
     <form action="action_page.php">
       <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <input type="text" id="fname" name="firstname" placeholder="First name">
       <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <input type="text" id="lname" name="lastname" placeholder="Last name">
+      <label for="subject">Comments</label>
+      <textarea id="subject" name="subject" placeholder="Something you want to get off your chest? Say it here!" style="height:200px"></textarea>
       <input type="submit" value="Coming Soon!" disabled>
     </form>
   </div>
+
  <!-- Footer-->
- <footer> 
-  <h5>Designed by Laura Bullek | 2021</h5>     
-</footer>
+  <footer> 
+    <h5>Designed by Laura Bullek | 2021</h5>     
+  </footer>
 
 </body>
 </html>
