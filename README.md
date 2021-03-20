@@ -1,13 +1,13 @@
 # Advanced-CSS-Portfolio
 
-# Description
+## Description
 The **Advanced-CSS-Portfolio** project is the second homework assignment of the March 2021 cohort from University of New Hampshire's full-stack coding bootcamp. 
 
 Building a benchmark for our future career as a web developer, this project focuses on applying recently learned core skills with advanced CSS. Built for ourselves and potential employers, this project contains a portfolio gallery of my most recent GitHub deployed repositories, a short story about myself, social media links, and contact information.
 
 This project is for an employer to review samples of work and assess my candidacy for an open position.
 
-# Acceptance Criteria
+## Acceptance Criteria
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
@@ -28,10 +28,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 [![Advanced-CSS-Portfolio-Screenshot.png](https://i.postimg.cc/sf60fYdS/Advanced-CSS-Portfolio-Screenshot.png)](https://postimg.cc/JtXQPBh4)
 
 
-# Installation
+## Installation
 No installations required for this project.
 
-# Usage
+## Usage
 Below are the links to this project:
 [GitHub] (https://github.com/Laura-Bullek/Advanced-CSS-Portfolio)
 
