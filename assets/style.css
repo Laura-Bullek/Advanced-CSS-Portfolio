@@ -1,3 +1,4 @@
+ /* Root and body styling */
 * {
   box-sizing: border-box;
 }
@@ -8,6 +9,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+ /* Navbar styling*/
 nav {
 	position: relative;
 	margin: 20px 0;
@@ -38,6 +40,7 @@ nav a {
   list-style-type: none;
 }
 
+ /* Haovering over a navbar item will change it to black */
 nav a:hover {
 	color: #000;
 }
@@ -48,7 +51,7 @@ nav .current a {
 	border-radius: 5px;
 } 
 
-/* Center website */
+/* Main content start */
 .main {
   max-width: 1000px;
   margin: auto;
@@ -78,42 +81,45 @@ nav .current a {
   font-size: 30px;
 }
 
+ /* Main content container */
 .container {
   padding: 20px 40px 40px;
   max-width: 1000px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0 100px 100px 100px;
+  padding-bottom: 50px;
 }
 
 div.container{
-margin-bottom: 30px;}
+  margin-bottom: 30px;
+}
 
+ /* Bio picture */
 .container__image {
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-    margin: 30px 30px 30px 0;
-    float: left;
-    border: 3px black solid;
-  }
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin: 30px 30px 30px 0;
+  float: left;
+  border: 3px black solid;
+}
 
+ /* Main content text/paragraphs*/
 .container__text {
   display: inline;
 }
 
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
+ /* Start of portfolio gallery*/
 .row {
   margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column (if you want) */
 .row,
 .row > .column {
   padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
@@ -126,21 +132,23 @@ h1 {
   clear: both;
 }
 
-/* Content */
 .content {
   background-color: white;
   padding: 10px;
 }
 
+ /* Each portfolio gallery starts off opaque */
 .content img {
   opacity: 0.5;
   border: 2px black solid;
 }
 
- .content img:hover {
+ /* Portfolio gallery images clear when hovered over */
+.content img:hover {
    opacity: 1;
- }
+}
 
+ /* Social media icons */
 ul.social-media-list img {
   padding: 5px;
   border-radius: 5px;
@@ -167,19 +175,19 @@ ul.social-media-list li {
   text-align: center;
 }
 
-/* Style inputs with type="text", select elements and textareas */
+/* Contact form */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 12px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 12px; 
+  resize: vertical;
 }
 
-/* Style the submit button with a specific background color etc */
+/* Green submit input button */
 input[type=submit] {
   background-color:green;
   color: white;
@@ -189,18 +197,12 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* Green submit input button changes to gray when hovered over - disabled */
 input[type=submit]:hover {
   background-color:gray;
 }
 
-/* Add a background color and some padding around the form */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 0 100px 100px 100px;
-  padding-bottom: 50px;
-}
+/* Footer */
 footer {
   position: fixed;
   left: 0;
@@ -212,14 +214,15 @@ footer {
   padding: 0;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Profilio gallery media queries */
+/* Makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
   }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
